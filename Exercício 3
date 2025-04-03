@@ -1,0 +1,32 @@
+programa {
+  funcao inicio() {
+    real sal, aumento, novosal
+    caracter plano
+
+    escreva("Digite seu salário atual: ")
+    leia (sal)
+    escreva ("Escolha seu plano:\n1 - Plano: A\n2 - Plano: B\n3 - Plano: C\n")
+
+    leia (plano)
+
+    escolha (plano) {
+      caso 'A':
+      aumento = sal * 0.10
+      pare
+      caso 'B':
+      aumento = sal * 0.15
+      pare
+      caso 'C':
+      aumento = sal * 0.20
+      caso contrario:
+      escreva ("Plano Inválido!")
+      retorne
+      
+    }
+    novosal = sal + aumento
+
+    escreva ("O novo salário é: R$ ", novosal)
+   
+   
+  }
+}
