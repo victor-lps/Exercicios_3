@@ -1,0 +1,36 @@
+programa {
+  funcao inicio() {
+    inteiro numero
+
+    escreva ("Digite um número de 1 até 7 para saber o dia da semana:  ")
+    leia (numero)
+
+    escolha (numero){
+      caso 1:
+      escreva ("O dia da semana é Domingo!")
+      pare
+      caso 2:
+      escreva ("O dia da semana é Segunda-Feira!")
+      pare
+      caso 3:
+      escreva ("O dia da semana é Terça-Feira!")
+      pare
+      caso 4:
+      escreva ("O dia da semana é Quarta-Feira!")
+      pare
+      caso 5: 
+      escreva ("O dia da semana é Quinta-Feira!")
+      pare
+      caso 6:
+      escreva ("O dia da semana é Sexta-Feira")
+      pare
+      caso 7:
+      escreva ("O dia da semana é Sábado!")
+      pare
+      caso contrario:
+      escreva ("Número inválido!")
+      retorne
+    }
+    
+  }
+}
