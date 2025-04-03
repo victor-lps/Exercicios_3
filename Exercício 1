@@ -1,0 +1,47 @@
+programa {
+  funcao inicio() {
+    inteiro codigo
+
+    escreva ("Digite o código do seu produto: ")
+    leia (codigo)
+
+    escolha (codigo) {
+      caso 1:
+      escreva ("Alimento não-perecível")
+      pare
+     
+    caso 2:
+    caso 3:
+    caso 4:
+    escreva ("Alimento percível")
+    pare 
+
+    caso 5:
+    caso 6:
+    escreva ("Vesstuário")
+    pare
+
+    caso 7:
+    escreva("Higiene Pessoal")
+    pare
+
+    caso 8:
+    caso 9:
+    caso 10:
+    caso 11:
+    caso 12:
+    caso 13:
+    caso 14:
+    caso 15: 
+    escreva("Limpeza e Utensílios Domésticos ")
+    pare
+    caso contrario:
+    escreva ("Código inválido")
+
+  
+    
+
+
+    }
+  }
+}
